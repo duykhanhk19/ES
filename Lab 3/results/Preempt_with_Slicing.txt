@@ -1,0 +1,473 @@
+Configuration:
+configUSE_PREEMPTION : 1
+configUSE_TIME_SLICING : 1
+----------------------------------------------------
+        Prioritized Pre-emptive Scheduling with Time Slicing
+----------------------------------------------------
+----------Task 1 start----------
+--- Task 1:     0
+--- Task 2:     0
+--- Task 3:     0
+--- Task Idle:  4
+--- Core:       0
++++ 1
+--- Task 1:     18674
+--- Task 2:     0
+--- Task 3:     0
+--- Task Idle:  5
+--- Core:       1
+--- Task 1:     101681
+--- Task 2:     0
+--- Task 3:     0
+--- Task Idle:  5
+--- Core:       1
+--- Task 1:     160270
+--- Task 2:     0
+--- Task 3:     0
+--- Task Idle:  6
+--- Core:       1
+----------Task 2 start----------
+--- Task 1:     160270
+--- Task 2:     0
+--- Task 3:     0
+--- Task Idle:  6
+--- Core:       0
++++ 2
+--- Task 1:     160270
+--- Task 2:     62111
+--- Task 3:     0
+--- Task Idle:  6
+--- Core:       1
+--- Task 1:     274376
+--- Task 2:     70741
+--- Task 3:     0
+--- Task Idle:  7
+--- Core:       1
+--- Task 1:     274376
+--- Task 2:     132163
+--- Task 3:     0
+--- Task Idle:  7
+--- Core:       1
+--- Task 1:     359797
+--- Task 2:     184837
+--- Task 3:     0
+--- Task Idle:  7
+--- Core:       1
+--- Task 1:     388475
+--- Task 2:     184837
+--- Task 3:     0
+--- Task Idle:  8
+--- Core:       1
+--- Task 1:     408982
+--- Task 2:     298942
+--- Task 3:     0
+--- Task Idle:  8
+--- Core:       1
+--- Task 1:     502573
+--- Task 2:     298942
+--- Task 3:     0
+--- Task Idle:  9
+--- Core:       1
+--- Task 1:     502573
+--- Task 2:     369638
+--- Task 3:     0
+--- Task Idle:  9
+--- Core:       1
+--- Task 1:     597268
+--- Task 2:     413038
+--- Task 3:     0
+--- Task Idle:  9
+--- Core:       1
+--- Task 1:     616672
+--- Task 2:     418836
+--- Task 3:     0
+--- Task Idle:  10
+--- Core:       1
+--- Task 1:     646504
+--- Task 2:     527133
+--- Task 3:     0
+--- Task Idle:  10
+--- Core:       1
+--- Task 1:     730771
+--- Task 2:     527133
+--- Task 3:     0
+--- Task Idle:  11
+--- Core:       1
+--- Task 1:     730771
+--- Task 2:     607244
+--- Task 3:     0
+--- Task Idle:  11
+--- Core:       1
+--- Task 1:     834915
+--- Task 2:     641229
+--- Task 3:     0
+--- Task Idle:  11
+--- Core:       1
+--- Task 1:     844869
+--- Task 2:     656512
+--- Task 3:     0
+--- Task Idle:  12
+--- Core:       1
+--- Task 1:     884186
+--- Task 2:     755325
+--- Task 3:     0
+--- Task Idle:  12
+--- Core:       1
+--- Task 1:     958968
+--- Task 2:     755325
+--- Task 3:     0
+--- Task Idle:  13
+--- Core:       1
+--- Task 1:     958968
+--- Task 2:     844904
+--- Task 3:     0
+--- Task Idle:  13
+--- Core:       1
+--- Task 1:     1072582
+--- Task 2:     869421
+--- Task 3:     0
+--- Task Idle:  14
+--- Core:       1
+--- Task 1:     1073076
+--- Task 2:     894325
+--- Task 3:     0
+--- Task Idle:  14
+--- Core:       1
+--- Task 1:     1122015
+--- Task 2:     983516
+--- Task 3:     0
+--- Task Idle:  14
+--- Core:       1
+--- Task 1:     1187174
+--- Task 2:     983516
+--- Task 3:     0
+--- Task Idle:  15
+--- Core:       1
+--- Task 1:     1187174
+--- Task 2:     1082782
+--- Task 3:     0
+--- Task Idle:  15
+--- Core:       1
+--- Task 1:     1301284
+--- Task 2:     1097612
+--- Task 3:     0
+--- Task Idle:  16
+--- Core:       1
+--- Task 1:     1301284
+--- Task 2:     1132123
+--- Task 3:     0
+--- Task Idle:  16
+--- Core:       1
+--- Task 1:     1359975
+--- Task 2:     1211707
+--- Task 3:     0
+--- Task Idle:  16
+--- Core:       1
+--- Task 1:     1415382
+--- Task 2:     1211707
+--- Task 3:     0
+--- Task Idle:  17
+--- Core:       1
+--- Task 1:     1415382
+--- Task 2:     1320645
+--- Task 3:     0
+--- Task Idle:  17
+--- Core:       1
+--- Task 1:     1529490
+--- Task 2:     1325802
+--- Task 3:     0
+--- Task Idle:  18
+--- Core:       1
+--- Task 1:     1529490
+--- Task 2:     1369985
+--- Task 3:     0
+--- Task Idle:  18
+--- Core:       1
+--- Task 1:     1597853
+--- Task 2:     1439897
+--- Task 3:     0
+--- Task Idle:  18
+--- Core:       1
+--- Task 1:     1643589
+--- Task 2:     1439897
+--- Task 3:     0
+--- Task Idle:  19
+--- Core:       1
+--- Task 1:     1647197
+--- Task 2:     1554003
+--- Task 3:     0
+--- Task Idle:  19
+--- Core:       1
+--- Task 1:     1757687
+--- Task 2:     1554003
+--- Task 3:     0
+--- Task Idle:  20
+--- Core:       1
+--- Task 1:     1757687
+--- Task 2:     1607858
+--- Task 3:     0
+--- Task Idle:  20
+--- Core:       1
+--- Task 1:     1835721
+--- Task 2:     1668098
+--- Task 3:     0
+--- Task Idle:  20
+--- Core:       1
+--- Task 1:     1871786
+--- Task 2:     1668098
+--- Task 3:     0
+--- Task Idle:  21
+--- Core:       1
+----------Task 3 start----------
+--- Task 1:     1871786
+--- Task 2:     1668098
+--- Task 3:     0
+--- Task Idle:  21
+--- Core:       0
++++ 3
+--- Task 1:     1871786
+--- Task 2:     1668098
+--- Task 3:     27444
+--- Task Idle:  21
+--- Core:       1
+--- Task 1:     1871786
+--- Task 2:     1668098
+--- Task 3:     134192
+--- Task Idle:  21
+--- Core:       1
+--- Task 1:     1871786
+--- Task 2:     1668098
+--- Task 3:     215325
+--- Task Idle:  21
+--- Core:       1
+--- Task 1:     1871786
+--- Task 2:     1668098
+--- Task 3:     296409
+--- Task Idle:  21
+--- Core:       1
+--- Task 1:     1871786
+--- Task 2:     1668098
+--- Task 3:     377542
+--- Task Idle:  21
+--- Core:       1
+--- Task 1:     1871786
+--- Task 2:     1668098
+--- Task 3:     458754
+--- Task Idle:  21
+--- Core:       1
+--- Task 1:     1871786
+--- Task 2:     1668098
+--- Task 3:     539888
+--- Task Idle:  21
+--- Core:       1
+--- Task 1:     1871786
+--- Task 2:     1668098
+--- Task 3:     620972
+--- Task Idle:  21
+--- Core:       1
+--- Task 1:     1871786
+--- Task 2:     1668098
+--- Task 3:     702106
+--- Task Idle:  21
+--- Core:       1
+--- Task 1:     1871786
+--- Task 2:     1668098
+--- Task 3:     783241
+--- Task Idle:  21
+--- Core:       1
+--- Task 1:     1871786
+--- Task 2:     1668098
+--- Task 3:     864453
+--- Task Idle:  21
+--- Core:       1
+--- Task 1:     1871786
+--- Task 2:     1668098
+--- Task 3:     945587
+--- Task Idle:  21
+--- Core:       1
+----------task 3 end----------
+--- Task 1:     1885533
+--- Task 2:     1697494
+--- Task 3:     1000000
+--- Task Idle:  21
+--- Core:       1
+--- Task 1:     1985883
+--- Task 2:     1697494
+--- Task 3:     1000000
+--- Task Idle:  22
+--- Core:       1
+--- Task 1:     1985883
+--- Task 2:     1761905
+--- Task 3:     1000000
+--- Task Idle:  22
+--- Core:       1
+--- Task 1:     2074498
+--- Task 2:     1811589
+--- Task 3:     1000000
+--- Task Idle:  22
+--- Core:       1
+--- Task 1:     2099981
+--- Task 2:     1811609
+--- Task 3:     1000000
+--- Task Idle:  23
+--- Core:       1
+--- Task 1:     2124255
+--- Task 2:     1925634
+--- Task 3:     1000000
+--- Task Idle:  23
+--- Core:       1
+--- Task 1:     2214079
+--- Task 2:     1925634
+--- Task 3:     1000000
+--- Task Idle:  24
+--- Core:       1
+--- Task 1:     2214079
+--- Task 2:     2000572
+--- Task 3:     1000000
+--- Task Idle:  24
+--- Core:       1
+--- Task 1:     2313221
+--- Task 2:     2039729
+--- Task 3:     1000000
+--- Task Idle:  24
+--- Core:       1
+--- Task 1:     2328178
+--- Task 2:     2050221
+--- Task 3:     1000000
+--- Task Idle:  25
+--- Core:       1
+--- Task 1:     2362873
+--- Task 2:     2153824
+--- Task 3:     1000000
+--- Task Idle:  25
+--- Core:       1
+--- Task 1:     2442276
+--- Task 2:     2153824
+--- Task 3:     1000000
+--- Task Idle:  26
+--- Core:       1
+--- Task 1:     2442276
+--- Task 2:     2239184
+--- Task 3:     1000000
+--- Task Idle:  26
+--- Core:       1
+--- Task 1:     2551839
+--- Task 2:     2267919
+--- Task 3:     1000000
+--- Task Idle:  26
+--- Core:       1
+--- Task 1:     2556374
+--- Task 2:     2288833
+--- Task 3:     1000000
+--- Task Idle:  27
+--- Core:       1
+--- Task 1:     2601491
+--- Task 2:     2382014
+--- Task 3:     1000000
+--- Task Idle:  27
+--- Core:       1
+--- Task 1:     2670472
+--- Task 2:     2382014
+--- Task 3:     1000000
+--- Task Idle:  28
+--- Core:       1
+--- Task 1:     2670472
+--- Task 2:     2477796
+--- Task 3:     1000000
+--- Task Idle:  28
+--- Core:       1
+--- Task 1:     2784580
+--- Task 2:     2496110
+--- Task 3:     1000000
+--- Task Idle:  29
+--- Core:       1
+--- Task 1:     2784580
+--- Task 2:     2527431
+--- Task 3:     1000000
+--- Task Idle:  29
+--- Core:       1
+--- Task 1:     2840106
+--- Task 2:     2610204
+--- Task 3:     1000000
+--- Task Idle:  29
+--- Core:       1
+--- Task 1:     2898679
+--- Task 2:     2610204
+--- Task 3:     1000000
+--- Task Idle:  30
+--- Core:       1
+--- Task 1:     2898679
+--- Task 2:     2716397
+--- Task 3:     1000000
+--- Task Idle:  30
+--- Core:       1
+--- Task 1:     3012788
+--- Task 2:     2724299
+--- Task 3:     1000000
+--- Task Idle:  31
+--- Core:       1
+--- Task 1:     3012788
+--- Task 2:     2766032
+--- Task 3:     1000000
+--- Task Idle:  31
+--- Core:       1
+--- Task 1:     3078848
+--- Task 2:     2838394
+--- Task 3:     1000000
+--- Task Idle:  31
+--- Core:       1
+--- Task 1:     3126886
+--- Task 2:     2838394
+--- Task 3:     1000000
+--- Task Idle:  32
+--- Core:       1
+--- Task 1:     3128486
+--- Task 2:     2952499
+--- Task 3:     1000000
+--- Task Idle:  32
+--- Core:       1
+--- Task 1:     3240984
+--- Task 2:     2952499
+--- Task 3:     1000000
+--- Task Idle:  33
+--- Core:       1
+--- Task 1:     3240984
+--- Task 2:     3004641
+--- Task 3:     1000000
+--- Task Idle:  33
+--- Core:       1
+--- Task 1:     3317452
+--- Task 2:     3066594
+--- Task 3:     1000000
+--- Task Idle:  33
+--- Core:       1
+--- Task 1:     3355082
+--- Task 2:     3066594
+--- Task 3:     1000000
+--- Task Idle:  34
+--- Core:       1
+--- Task 1:     3367090
+--- Task 2:     3180700
+--- Task 3:     1000000
+--- Task Idle:  34
+--- Core:       1
+--- Task 1:     3469180
+--- Task 2:     3180700
+--- Task 3:     1000000
+--- Task Idle:  35
+--- Core:       1
+--- Task 1:     3469180
+--- Task 2:     3243374
+--- Task 3:     1000000
+--- Task Idle:  35
+--- Core:       1
+--- Task 1:     3556057
+--- Task 2:     3294796
+--- Task 3:     1000000
+--- Task Idle:  35
+--- Core:       1
+--- Task 1:     3583278
+--- Task 2:     3294796
+--- Task 3:     1000000
+--- Task Idle:  36
+--- Core:       1
