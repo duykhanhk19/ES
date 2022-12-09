@@ -1,0 +1,110 @@
+Reception receive new request: ID: 3 - Data: 13
+Reception cannot execute this request!
+Reception receive new request: ID: 3 - Data: 19
+Reception cannot execute this request!
+Reception receive new request: ID: 1 - Data: 18
+Reception have executed this request!
+--- From Task 1, received request: Id = 1, Data = 18
+Reception receive new request: ID: 2 - Data: 16
+Reception have executed this request!
+--- From Task 2, received request: Id = 2, Data = 16
+Reception receive new request: ID: 3 - Data: 19
+Reception cannot execute this request!
+Reception receive new request: ID: 1 - Data: 11
+Reception have executed this request!
+--- From Task 1, received request: Id = 1, Data = 11
+Reception receive new request: ID: 1 - Data: 15
+Reception have executed this request!
+--- From Task 1, received request: Id = 1, Data = 15
+Reception receive new request: ID: 1 - Data: 13
+Reception have executed this request!
+--- From Task 1, received request: Id = 1, Data = 13
+Reception receive new request: ID: 1 - Data: 16
+Reception have executed this request!
+--- From Task 1, received request: Id = 1, Data = 16
+Reception receive new request: ID: 3 - Data: 12
+Reception cannot execute this request!
+Reception receive new request: ID: 2 - Data: 17
+Reception have executed this request!
+--- From Task 2, received request: Id = 2, Data = 17
+Reception receive new request: ID: 3 - Data: 18
+Reception cannot execute this request!
+Reception receive new request: ID: 2 - Data: 13
+Reception have executed this request!
+--- From Task 2, received request: Id = 2, Data = 13
+Reception receive new request: ID: 1 - Data: 12
+Reception have executed this request!
+--- From Task 1, received request: Id = 1, Data = 12
+Reception receive new request: ID: 1 - Data: 19
+Reception have executed this request!
+--- From Task 1, received request: Id = 1, Data = 19
+Reception receive new request: ID: 1 - Data: 17
+Reception have executed this request!
+--- From Task 1, received request: Id = 1, Data = 17
+Reception receive new request: ID: 2 - Data: 14
+Reception have executed this request!
+--- From Task 2, received request: Id = 2, Data = 14
+Reception receive new request: ID: 1 - Data: 10
+Reception have executed this request!
+--- From Task 1, received request: Id = 1, Data = 10
+Reception receive new request: ID: 3 - Data: 10
+Reception cannot execute this request!
+Reception receive new request: ID: 2 - Data: 14
+Reception have executed this request!
+--- From Task 2, received request: Id = 2, Data = 14
+Reception receive new request: ID: 1 - Data: 11
+Reception have executed this request!
+--- From Task 1, received request: Id = 1, Data = 11
+Reception receive new request: ID: 1 - Data: 16
+Reception have executed this request!
+--- From Task 1, received request: Id = 1, Data = 16
+Reception receive new request: ID: 2 - Data: 11
+Reception have executed this request!
+--- From Task 2, received request: Id = 2, Data = 11
+Reception receive new request: ID: 1 - Data: 17
+Reception have executed this request!
+--- From Task 1, received request: Id = 1, Data = 17
+Reception receive new request: ID: 2 - Data: 11
+Reception have executed this request!
+--- From Task 2, received request: Id = 2, Data = 11
+Reception receive new request: ID: 3 - Data: 14
+Reception cannot execute this request!
+Reception receive new request: ID: 1 - Data: 15
+Reception have executed this request!
+--- From Task 1, received request: Id = 1, Data = 15
+Reception receive new request: ID: 1 - Data: 10
+Reception have executed this request!
+--- From Task 1, received request: Id = 1, Data = 10
+Reception receive new request: ID: 1 - Data: 16
+Reception have executed this request!
+--- From Task 1, received request: Id = 1, Data = 16
+Reception receive new request: ID: 1 - Data: 14
+Reception have executed this request!
+--- From Task 1, received request: Id = 1, Data = 14
+Reception receive new request: ID: 1 - Data: 10
+Reception have executed this request!
+--- From Task 1, received request: Id = 1, Data = 10
+Reception receive new request: ID: 3 - Data: 10
+Reception cannot execute this request!
+Reception receive new request: ID: 2 - Data: 12
+Reception have executed this request!
+--- From Task 2, received request: Id = 2, Data = 12
+Reception receive new request: ID: 2 - Data: 13
+Reception have executed this request!
+--- From Task 2, received request: Id = 2, Data = 13
+Reception receive new request: ID: 2 - Data: 19
+Reception have executed this request!
+--- From Task 2, received request: Id = 2, Data = 19
+Reception receive new request: ID: 3 - Data: 15
+Reception cannot execute this request!
+Reception receive new request: ID: 1 - Data: 19
+Reception have executed this request!
+--- From Task 1, received request: Id = 1, Data = 19
+Reception receive new request: ID: 1 - Data: 19
+Reception have executed this request!
+--- From Task 1, received request: Id = 1, Data = 19
+Reception receive new request: ID: 3 - Data: 14
+Reception cannot execute this request!
+Reception receive new request: ID: 1 - Data: 19
+Reception have executed this request!
+--- From Task 1, received request: Id = 1, Data = 19
