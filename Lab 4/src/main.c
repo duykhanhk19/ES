@@ -15,7 +15,7 @@ QueueHandle_t xQueueTask1, xQueueTask2;
 static void vTaskReception(void * pvParameters) {
 	BaseType_t xTaskStatus;
 	const TickType_t xTicksToWait = pdMS_TO_TICKS(100UL);
-   Data_t *requestPtr = (Data_t*) malloc(sizeof(Data_t));;
+ 	Data_t *requestPtr = (Data_t*) malloc(sizeof(Data_t));;
 	while(1) {
       requestPtr->Id = rand() % 3 + 1;  
       requestPtr->Data = rand() % 10 + 10;
@@ -25,13 +25,18 @@ static void vTaskReception(void * pvParameters) {
       else if (requestPtr->Id == 2) xTaskStatus = xQueueSendToBack(xQueueTask2, requestPtr, xTicksToWait);
       else{
          xTaskStatus = pdFAIL;
-         printf("Reception cannot execute this request!\r\n");
+         printf("Reception cannot execute request have id = 3!\r\n");
       }
 
 		if(xTaskStatus == pdPASS) {
-			printf("Reception have executed this request!\r\n");
+			printf("Reception have sent this request to queue %d!\r\n", requestPtr->Id);
 		}
-      vTaskDelay(pdMS_TO_TICKS(100));
+		else{
+			if(requestPtr->Id != 3)
+				printf("=> Reception cannot put request to queue %d!\r\n", requestPtr->Id);
+		}
+		printf("-----------------------\n");
+    vTaskDelay(pdMS_TO_TICKS(100));
 	} 
 }
 
@@ -43,11 +48,14 @@ static void vTask1(void * pvParameters) {
 		xTaskStatus = xQueueReceive(xQueueTask1, &requestReceived, 0);
 		// Check if received task success or not
 		if(xTaskStatus == pdPASS) {
-			printf("--- From Task 1, received request: Id = %d, Data = %d\r\n", requestReceived.Id, requestReceived.Data);
+			if(requestReceived.Id == 1)
+				printf("=> From queue 1, handled request: Id = %d, Data = %d\r\n", requestReceived.Id, requestReceived.Data);
+			else
+				printf("=> From queue 1, cannot handle request: Id = %d, Data = %d\r\n", requestReceived.Id, requestReceived.Data);
 		}
+		vTaskDelay(pdMS_TO_TICKS(500));
 	}
 }
-
 static void vTask2(void * pvParameters) {
 
 	Data_t requestReceived;
@@ -56,8 +64,12 @@ static void vTask2(void * pvParameters) {
 		xTaskStatus = xQueueReceive(xQueueTask2, &requestReceived, 0);
 		// Check if received task success or not
 		if(xTaskStatus == pdPASS) {
-			printf("--- From Task 2, received request: Id = %d, Data = %d\r\n", requestReceived.Id, requestReceived.Data);
+			if(requestReceived.Id == 2)
+				printf("=> From queue 2, handled request: Id = %d, Data = %d\r\n", requestReceived.Id, requestReceived.Data);	
+			else
+				printf("=> From queue 2, cannot handle request: Id = %d, Data = %d\r\n", requestReceived.Id, requestReceived.Data);
 		}
+		vTaskDelay(pdMS_TO_TICKS(500));
 	}
 }
 
@@ -65,7 +77,7 @@ void app_main(void) {
 
 	// Create queue
 	xQueueTask1 = xQueueCreate(5, sizeof(Data_t));
-   xQueueTask2 = xQueueCreate(5, sizeof(Data_t));
+  	xQueueTask2 = xQueueCreate(5, sizeof(Data_t));
 
 	// Check queue create success or not
 	if(xQueueTask1 != NULL && xQueueTask2 != NULL) {
